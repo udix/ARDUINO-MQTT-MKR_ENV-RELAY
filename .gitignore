@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Arduino secrets
+arduino_secrets.h

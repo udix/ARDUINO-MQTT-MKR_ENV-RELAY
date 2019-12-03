@@ -1,0 +1,5 @@
+{
+    "board": "arduino:samd:mkr1000",
+    "port": "COM16",
+    "sketch": "ARDUINO-MQTT-MKR_ENV-RELAY.ino"
+}
