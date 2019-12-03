@@ -159,7 +159,7 @@ void connectMqttServer()
     // MQTT client connection request
     mqttClient.begin(mqttHost, 1883, net);
     Serial.print("\nconnecting to MQTT server...");
-    while (!mqttClient.connect(mqttClientId))
+    while (!mqttClient.connect(mqttClientId, mqttUser, mqttPass))
     {
         Serial.print(".");
         delay(1000);
